@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jsignal"
+version = "1.0.0"
+description = "Pythonic implementation of the observer pattern."
+authors = ["JohnDevlopment <50782633+JohnDevlopment@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+icecream = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
